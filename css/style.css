@@ -1,0 +1,172 @@
+/*头部*/
+.header{
+    width: 16rem;
+    height:2.5rem;
+    background:-webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.1));
+    text-align: center;
+    position: relative;
+}
+.back{
+    width: 3.175rem;
+    height: 1.55rem;
+    background: url("../images/intro_12.png") no-repeat;
+    position: absolute;
+    left: 0.5rem;
+    top:0.5rem;
+    background-size: 100%;
+}
+.logo{
+    width: 3.85rem;
+    height: 1.55rem;
+    display:inline-block;
+    margin-top: 0.475rem;
+    background-size: cover;
+}
+/*中间*/
+.btnbox{display:-webkit-box;-webkit-box-pack:center;}
+.piclist img{ width:100%;}
+.btnlist{ padding-top:0.5rem;}
+.btnlist li{ width:0.25rem; height:0.25rem; background:#a9a9a9; float:left; border-radius:50%; margin:0 0.25rem;}
+.active{ background:#F90 !important;}
+
+/*main*/
+.main{ padding:0 0.5rem;}
+.menu {
+    font-size:0.6rem;
+    text-align:center;
+}
+.menu li{
+    width:3.75rem;
+    float:left;
+    padding-top:1rem;
+}
+.icon{
+    width:2rem;
+    height:2rem;
+    background:url(../images/intro_15.png);
+    display:block;
+    background-size:100%;
+    margin:0 auto;}
+.c1{ background-position:0 0;}
+
+.hop{width: 100%;
+    height:50px;
+    border-bottom:2px solid #cccccc ;
+    padding-top:30px;
+    margin-bottom: 30px;
+}
+.hop h1{border-left: 4px solid red;
+    height:30px;line-height: 30px;
+    color: #000;
+    font-size: 27px;
+    padding-left: 18px ;}
+.ten{  font-size: 23px;  line-height: 30px;  }
+
+.hotlist{ margin-top:0.8rem;}
+.hotlist li{ height:3rem;
+    background:#f4f4f4;
+    margin-bottom:0.5rem;}
+.hotlist .num{ float:left;
+    width:1.5rem;
+    background:#e00202;
+    height:100%; font-size:48px; color:#FFF; text-align:center; line-height:3rem; font-weight:bold;}
+.hotlist .pic{ float:left; height:100%;}
+.hotlist .info{ float:left; padding-top:0.6rem; line-height:0.9rem; padding-left:0.5rem;color: #999;font-size: 0.6rem;}
+.info em{color:#d51938;font-size: 0.6rem;}
+.hotlist .price{
+    font-size:0.8rem;
+    color:#d51938;
+    font-weight:bold;
+    margin-top:1rem;
+    float:right;
+    padding-right:0.75rem;
+    background:url(../images/intro_51.png) right center no-repeat;
+}
+.more{ width: 14.95rem;
+    height:2rem;margin-top: 0.775rem;background: #f5f5f5;text-align: center;line-height: 2rem;font-size:0.7rem;color:#666;margin-bottom: 0.5rem;position: relative; }
+.more img{
+   width: 0.325rem;
+    height: 0.55rem;
+    position: absolute;
+    right: 0.55rem;
+    top:0.85rem;
+}
+.show-list .one{
+    text-align: center;
+   padding-top: 0.7rem;
+    color:#fff;
+}
+.show-list{
+    font-size: 0.7rem;
+    padding-top: 1px;
+    padding-bottom: 0.5rem;
+}
+
+.show-list dt{
+    background:#ff3900 url(../images/intro_89.png) left bottom no-repeat;
+    height:8.75rem;
+    background-size:75%;
+    margin-top:-1px;
+}
+.show-list .show{color:#d51942; }
+.show-list dt,.show-list dd{ float:left;
+    width:3.75rem;
+    box-sizing:border-box;
+}
+.show-list dd{ height:2.220rem;
+    text-align:center;
+    line-height:2.220rem;
+    border:1px solid #CCC;
+    margin-left:-1px;
+    margin-top:-1px;}
+
+
+/*尾部*/
+.foot-nav{
+    width: 16rem;
+    height:2.5rem;
+    background: #f8f8f8;
+    font-size: 0.7rem;
+    line-height: 2.5rem;
+    position: relative;
+}
+.foot-nav a{
+    float: left;
+    padding: 0 0.25rem;
+
+}
+.foot-nav .nav-t{
+    float: right;
+    padding-right: 1.6rem;
+    position: relative;
+}
+.nav-t i{
+    width: 0.45rem;
+    height: 0.225rem;
+    background: url("../images/intro_125.png") no-repeat;
+    position: absolute;
+    top: 0.9rem;
+   right:0.7rem;
+    background-size: 100%;
+}
+.end{
+    width: 16rem;
+    height: 3.65rem;
+    background: #eeeeee;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 100%;
+    padding-bottom:1rem;
+
+}
+.end-new a{
+    padding: 0  0.275rem;
+}
+.end-new{
+    padding-top:1rem;
+}
+.end-box{
+    margin-top: 0.85rem;
+    color:#999;
+
+}
